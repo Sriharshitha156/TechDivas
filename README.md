@@ -3,6 +3,7 @@ Android Workshop Project: Video Gaming
 
 
 1. Problem Statement
+
 Most action or magic-based games rely on fixed buttons and repeated patterns of attack. This makes the gameplay predictable, less skill-based, and not very unique.
 Our game solves this problem by allowing players to draw gestures (shapes) to cast spells, making the gameplay more natural, creative, and completely skill-based.
 Additionally:
@@ -11,6 +12,7 @@ Most games use god characters directly, which may create conflict → we use god
 Many multiplayer games match players with strangers → we allow the player to select their own opponents, giving more control and safety.
 
 2. Idea Description
+
 Wizard’s Circle is a multiplayer magical combat game where players draw rune-shapes with their fingers (or mouse) to cast spells.
 Our updated idea also includes:
 Powers in the game are inspired by mythological gods (like lightning, fire, storm, creation, destruction), but no god appears directly to avoid religious issues.
@@ -22,8 +24,10 @@ If a player goes inactive, AI automatically takes control so their team isn't at
 If one team is far behind, the game can give balancing points to keep competition fair and fun.
 
 3. Theme & Genre
+
 Theme:
 Magical, fantasy-based world filled with glowing spells, ancient runes, and mystical arenas.
+
 Genre:
 Action
 Multiplayer Arena Combat
@@ -35,6 +39,7 @@ Casual + Competitive PvP
 
 A. Non-Negotiables (Must Be Included)
 These features are required for the game to function properly.
+
 1. Rune Drawing Spell System
 Players draw shapes (Triangle, Circle, Square, Zig-Zag, Spiral, Caret ^).
 Each shape becomes a spell.
@@ -74,6 +79,7 @@ Die when health becomes zero
 Without this, the game cannot function.
 
 B. Good-to-Have Features
+
 These make the game better, but the game can still run without them.
 Extra arenas with special mechanics
 Spell combinations (multiple shapes in a sequence)
@@ -84,6 +90,7 @@ Practice mode with AI
 Reflection-based arena effects
 
 C. Not Implementing (Future Scope)
+
 Ranked 2v2 competitive mode
 Magic guild system
 Story/campaign mode
@@ -91,6 +98,7 @@ Seasonal battle pass
 Advanced rune system
 
 5. Custom Features 
+
 God-inspired powers but no gods shown
 Prevents cultural or religious conflict.
 Still allows powerful, myth-inspired magic.
@@ -113,12 +121,5 @@ If one team is too strong, the losing team gets small bonus points.
 Keeps games fun and reduces frustration.
 
 6. Tech Stack (Tools Used)
+
 Frontend (Game visuals & mechanics):
-Unity (C#) or Godot
-Handles character movement, spell drawing, arenas, animations.
-Backend (Multiplayer & server):
-Node.js or Firebase
-Handles communication, match data, live spectator mode.
-Platforms:
-PC
-Android
